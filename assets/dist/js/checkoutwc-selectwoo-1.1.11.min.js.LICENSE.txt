@@ -1,0 +1,15 @@
+/*!
+ * SelectWoo 1.0.10
+ * https://github.com/woocommerce/selectWoo
+ *
+ * Released under the MIT license
+ * https://github.com/woocommerce/selectWoo/blob/master/LICENSE.md
+ */
+
+/*!
+ * jQuery Mousewheel 3.1.13
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license
+ * http://jquery.org/license
+ */

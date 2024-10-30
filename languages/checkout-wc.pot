@@ -1,0 +1,340 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2023-05-02 14:15-0400\n"
+"PO-Revision-Date: 2017-10-14 11:44-0400\n"
+"Last-Translator: \n"
+"Language-Team: support@checkoutwc.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: checkout-for-woocommerce.php:77
+msgid ""
+"Your site is running an <strong>insecure version</strong> of PHP that is "
+"no longer supported. Please contact your web hosting provider to update "
+"your PHP version."
+msgstr ""
+
+#. translators: %s - checkoutwc.com URL for documentation with more details.
+#: checkout-for-woocommerce.php:83
+#, php-format
+msgid ""
+"<strong>Note:</strong> CheckoutWC is disabled on your site until you fix "
+"the issue. <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Need help? Click here.</a>"
+msgstr ""
+
+#. translators: %s - WordPress version.
+#: checkout-for-woocommerce.php:121
+#, php-format
+msgid "CheckoutWC requires WordPress %s or later."
+msgstr ""
+
+#. translators: %s - WordPress version.
+#: checkout-for-woocommerce.php:156
+#, php-format
+msgid "CheckoutWC requires WooCommerce %s or later."
+msgstr ""
+
+#: includes/Action/LogInAction.php:37
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:35
+msgid "Email address contains invalid domain name."
+msgstr ""
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:33
+#, php-format
+msgid "Please enter a valid %s."
+msgstr ""
+
+#: includes/Admin/Notices/CompatibilityNotice.php:34
+msgid "Please deactivate to avoid problems with your checkout page."
+msgstr ""
+
+#: includes/Admin/Pages/General.php:101
+msgid "PRO"
+msgstr ""
+
+#: includes/Admin/Pages/General.php:104
+msgid "per year"
+msgstr ""
+
+#: includes/Admin/Pages/General.php:110
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:129
+#: sources/php/template-functions.php:608
+#: sources/php/template-functions.php:1173
+msgid "Billing address"
+msgstr ""
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:297
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr ""
+
+#. Author of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:62
+msgid "CheckoutWC"
+msgstr ""
+
+#: includes/Managers/AssetManager.php:429
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/Managers/AssetManager.php:437
+msgid "Please enter your first and last name."
+msgstr ""
+
+#: includes/Managers/AssetManager.php:438
+#: sources/php/template-functions.php:618
+msgid "Shipping address"
+msgstr ""
+
+#: includes/Managers/AssetManager.php:439
+msgid "Please enter a new quantity:"
+msgstr ""
+
+#: includes/Managers/AssetManager.php:440
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+
+#: includes/Managers/AssetManager.php:441
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr ""
+
+#: includes/Managers/AssetManager.php:448
+msgid "Please enter a valid postcode / ZIP."
+msgstr ""
+
+#: includes/Managers/AssetManager.php:449
+msgid "Pickup"
+msgstr ""
+
+#: sources/php/functions.php:176
+msgid "Ship to"
+msgstr ""
+
+#: sources/php/functions.php:866
+msgid "No shipping methods available"
+msgstr ""
+
+#: sources/php/functions.php:964
+msgid "Complete Order"
+msgstr ""
+
+#: sources/php/functions.php:1024 sources/php/template-functions.php:930
+#: sources/php/template-functions.php:1498
+msgid "Payment"
+msgstr ""
+
+#: sources/php/functions.php:1049
+msgid "All transactions are secure and encrypted."
+msgstr ""
+
+#: sources/php/functions.php:1070
+msgid "Your order is free. No payment is required."
+msgstr ""
+
+#: sources/php/functions.php:1115
+msgid "Same as shipping address"
+msgstr ""
+
+#: sources/php/functions.php:1135
+msgid "Use a different billing address"
+msgstr ""
+
+#: sources/php/functions.php:1198
+msgid "Return to cart"
+msgstr ""
+
+#: sources/php/functions.php:1235
+msgid "Continue to shipping"
+msgstr ""
+
+#: sources/php/functions.php:1257
+msgid "Continue to payment"
+msgstr ""
+
+#: sources/php/functions.php:1293
+msgid "Review order"
+msgstr ""
+
+#: sources/php/functions.php:1313
+msgid "Return to information"
+msgstr ""
+
+#: sources/php/functions.php:1333
+msgid "Return to shipping"
+msgstr ""
+
+#: sources/php/functions.php:1353
+msgid "Return to payment"
+msgstr ""
+
+#: sources/php/functions.php:1736
+msgid "Or"
+msgstr ""
+
+#: sources/php/template-functions.php:61
+msgid "Show order summary"
+msgstr ""
+
+#: sources/php/template-functions.php:77
+msgid "Hide order summary"
+msgstr ""
+
+#: sources/php/template-functions.php:223
+msgid "Express checkout"
+msgstr ""
+
+#: sources/php/template-functions.php:255
+#: sources/php/template-functions.php:1469
+msgid "Information"
+msgstr ""
+
+#: sources/php/template-functions.php:326
+msgid "Already have an account with us?"
+msgstr ""
+
+#: sources/php/template-functions.php:338
+msgid "Log in for a faster checkout experience."
+msgstr ""
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:408
+#, php-format
+msgid "Create %s shopping account."
+msgstr ""
+
+#: sources/php/template-functions.php:420
+msgid "If you do not have an account, we will create one for you."
+msgstr ""
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:452
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr ""
+
+#: sources/php/template-functions.php:470
+msgid "Log out."
+msgstr ""
+
+#: sources/php/template-functions.php:488
+msgid "Welcome back"
+msgstr ""
+
+#: sources/php/template-functions.php:492
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+
+#: sources/php/template-functions.php:495
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+
+#: sources/php/template-functions.php:548
+msgid "Or continue as guest"
+msgstr ""
+
+#: sources/php/template-functions.php:598
+msgid "Billing and Shipping address"
+msgstr ""
+
+#: sources/php/template-functions.php:784
+#: sources/php/template-functions.php:826
+#: sources/php/template-functions.php:882
+msgid "Contact"
+msgstr ""
+
+#: sources/php/template-functions.php:792
+#: sources/php/template-functions.php:808
+#: sources/php/template-functions.php:834
+#: sources/php/template-functions.php:850
+#: sources/php/template-functions.php:865
+#: sources/php/template-functions.php:890
+#: sources/php/template-functions.php:906
+#: sources/php/template-functions.php:921
+#: sources/php/template-functions.php:937
+msgid "Change"
+msgstr ""
+
+#: sources/php/template-functions.php:857
+#: sources/php/template-functions.php:913
+msgid "Method"
+msgstr ""
+
+#: sources/php/template-functions.php:1069
+msgid "Shipping method"
+msgstr ""
+
+#: sources/php/template-functions.php:1194
+msgid "Select the address that matches your card or payment method."
+msgstr ""
+
+#: sources/php/template-functions.php:1329
+msgid "Apply"
+msgstr ""
+
+#: sources/php/template-functions.php:1348
+msgid "Promo Code"
+msgstr ""
+
+#: sources/php/template-functions.php:1356
+msgid "Enter Promo Code"
+msgstr ""
+
+#: sources/php/template-functions.php:1484
+msgid "Shipping"
+msgstr ""
+
+#: templates/default/footer.php:22
+msgid "Copyright"
+msgstr ""
+
+#: templates/default/footer.php:22
+msgid "All rights reserved."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "CheckoutWC Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A beautiful, responsive, conversion optimized checkout template for "
+"WooCommerce."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.checkoutwc.com"
+msgstr ""

@@ -1,0 +1,535 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2023-05-02 14:15-0400\n"
+"PO-Revision-Date: 2023-05-02 14:18-0400\n"
+"Last-Translator: \n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: checkout-for-woocommerce.php:77
+msgid ""
+"Your site is running an <strong>insecure version</strong> of PHP that is no "
+"longer supported. Please contact your web hosting provider to update your "
+"PHP version."
+msgstr ""
+"Trang web của bạn đang chạy <strong>phiên bản PHP không an toàn</strong> "
+"không còn được hỗ trợ. Vui lòng liên hệ với nhà cung cấp dịch vụ lưu trữ web "
+"của bạn để cập nhật phiên bản PHP của bạn."
+
+#. translators: %s - checkoutwc.com URL for documentation with more details.
+#: checkout-for-woocommerce.php:83
+#, php-format
+msgid ""
+"<strong>Note:</strong> CheckoutWC is disabled on your site until you fix the "
+"issue. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Need "
+"help? Click here.</a>"
+msgstr ""
+"<strong>Lưu ý:</strong> CheckoutWC bị vô hiệu hóa trên trang web của bạn cho "
+"đến khi bạn khắc phục sự cố. <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Cần giúp đỡ? Bấm vào đây.</a>"
+
+#. translators: %s - WordPress version.
+#: checkout-for-woocommerce.php:121
+#, php-format
+msgid "CheckoutWC requires WordPress %s or later."
+msgstr "CheckoutWC yêu cầu WordPress %s trở lên."
+
+#. translators: %s - WordPress version.
+#: checkout-for-woocommerce.php:156
+#, php-format
+msgid "CheckoutWC requires WooCommerce %s or later."
+msgstr "CheckoutWC yêu cầu WooC Commerce %s trở lên."
+
+#: includes/Action/LogInAction.php:37
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Đã xảy ra lỗi khi đăng nhập. Vui lòng kiểm tra thông tin đăng nhập của bạn "
+"và thử lại."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:35
+msgid "Email address contains invalid domain name."
+msgstr "Địa chỉ email chứa tên miền không hợp lệ."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:33
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Vui lòng nhập một %s hợp lệ."
+
+#: includes/Admin/Notices/CompatibilityNotice.php:34
+msgid "Please deactivate to avoid problems with your checkout page."
+msgstr "Vui lòng hủy kích hoạt để tránh sự cố với trang thanh toán của bạn."
+
+#: includes/Admin/Pages/General.php:101
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/Admin/Pages/General.php:104
+msgid "per year"
+msgstr "mỗi năm"
+
+#: includes/Admin/Pages/General.php:110
+msgid "Upgrade Now"
+msgstr "Nâng cấp ngay bây giờ"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:129
+#: sources/php/template-functions.php:608
+#: sources/php/template-functions.php:1173
+msgid "Billing address"
+msgstr "Địa chỉ thanh toán"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:297
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Đã đăng nhập bằng PayPal. Vui lòng tiếp tục đặt hàng của bạn bên dưới."
+
+#. Author of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:62
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Managers/AssetManager.php:429
+msgid "Please enter a valid phone number."
+msgstr "Xin vui lòng nhập một số điện thoại hợp lệ."
+
+#: includes/Managers/AssetManager.php:437
+msgid "Please enter your first and last name."
+msgstr "Vui lòng nhập họ và tên của bạn."
+
+#: includes/Managers/AssetManager.php:438
+#: sources/php/template-functions.php:618
+msgid "Shipping address"
+msgstr "Địa chỉ giao hàng"
+
+#: includes/Managers/AssetManager.php:439
+msgid "Please enter a new quantity:"
+msgstr "Vui lòng nhập số lượng mới:"
+
+#: includes/Managers/AssetManager.php:440
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"Mã bảo mật 3 chữ số thường được tìm thấy ở mặt sau thẻ của bạn. Thẻ American "
+"Express có mã gồm 4 chữ số nằm ở mặt trước."
+
+#: includes/Managers/AssetManager.php:441
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "Bạn có chắc chắn muốn xóa mặt hàng này khỏi giỏ hàng của mình không?"
+
+#: includes/Managers/AssetManager.php:448
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Vui lòng nhập chính xác mã bưu điện."
+
+#: includes/Managers/AssetManager.php:449
+msgid "Pickup"
+msgstr "Lấy"
+
+#: sources/php/functions.php:176
+msgid "Ship to"
+msgstr "Tàu"
+
+#: sources/php/functions.php:866
+msgid "No shipping methods available"
+msgstr "Không có phương thức vận chuyển nào"
+
+#: sources/php/functions.php:964
+msgid "Complete Order"
+msgstr "Kết thúc đặt hàng"
+
+#: sources/php/functions.php:1024 sources/php/template-functions.php:930
+#: sources/php/template-functions.php:1498
+msgid "Payment"
+msgstr "Thanh toán"
+
+#: sources/php/functions.php:1049
+msgid "All transactions are secure and encrypted."
+msgstr "Tất cả các giao dịch đều được bảo mật và mã hóa."
+
+#: sources/php/functions.php:1070
+msgid "Your order is free. No payment is required."
+msgstr "Đơn đặt hàng của bạn là miễn phí. Không cần thanh toán."
+
+#: sources/php/functions.php:1115
+msgid "Same as shipping address"
+msgstr "Tương tự như địa chỉ giao hàng"
+
+#: sources/php/functions.php:1135
+msgid "Use a different billing address"
+msgstr "Sử dụng một địa chỉ thanh toán khác"
+
+#: sources/php/functions.php:1198
+msgid "Return to cart"
+msgstr "Quay lại cửa hàng"
+
+#: sources/php/functions.php:1235
+msgid "Continue to shipping"
+msgstr "Tiếp tục vận chuyển"
+
+#: sources/php/functions.php:1257
+msgid "Continue to payment"
+msgstr "Tiếp tục thanh toán"
+
+#: sources/php/functions.php:1293
+msgid "Review order"
+msgstr "Xác nhận đơn hàng"
+
+#: sources/php/functions.php:1313
+msgid "Return to information"
+msgstr "Quay lại thông tin"
+
+#: sources/php/functions.php:1333
+msgid "Return to shipping"
+msgstr "Quay lại giao hàng"
+
+#: sources/php/functions.php:1353
+msgid "Return to payment"
+msgstr "Trở lại thanh toán"
+
+#: sources/php/functions.php:1736
+msgid "Or"
+msgstr "Hoặc"
+
+#: sources/php/template-functions.php:61
+msgid "Show order summary"
+msgstr "Hiển thị tóm tắt đơn hàng"
+
+#: sources/php/template-functions.php:77
+msgid "Hide order summary"
+msgstr "Ẩn tóm tắt đơn hàng"
+
+#: sources/php/template-functions.php:223
+msgid "Express checkout"
+msgstr "Thanh toán nhanh"
+
+#: sources/php/template-functions.php:255
+#: sources/php/template-functions.php:1469
+msgid "Information"
+msgstr "Thông tin"
+
+#: sources/php/template-functions.php:326
+msgid "Already have an account with us?"
+msgstr "Đã có một tài khoản với chúng tôi?"
+
+#: sources/php/template-functions.php:338
+msgid "Log in for a faster checkout experience."
+msgstr "Đăng nhập để có trải nghiệm thanh toán nhanh hơn."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:408
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Tạo tài khoản mua sắm %s."
+
+#: sources/php/template-functions.php:420
+msgid "If you do not have an account, we will create one for you."
+msgstr "Nếu bạn chưa có tài khoản, chúng tôi sẽ tạo một tài khoản cho bạn."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:452
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Chào mừng bạn trở lại, %1$s (%2$s)."
+
+#: sources/php/template-functions.php:470
+msgid "Log out."
+msgstr "Đăng xuất."
+
+#: sources/php/template-functions.php:488
+msgid "Welcome back"
+msgstr "Chào mừng trở lại"
+
+#: sources/php/template-functions.php:492
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"Có vẻ như bạn đã có một tài khoản. Vui lòng nhập thông tin đăng nhập của bạn "
+"dưới đây."
+
+#: sources/php/template-functions.php:495
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+"Nếu bạn đã mua sắm với chúng tôi trước đây, vui lòng nhập thông tin đăng "
+"nhập của bạn vào bên dưới."
+
+#: sources/php/template-functions.php:548
+msgid "Or continue as guest"
+msgstr "Hoặc tiếp tục với tư cách khách"
+
+#: sources/php/template-functions.php:598
+msgid "Billing and Shipping address"
+msgstr "Địa chỉ thanh toán và vận chuyển"
+
+#: sources/php/template-functions.php:784
+#: sources/php/template-functions.php:826
+#: sources/php/template-functions.php:882
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: sources/php/template-functions.php:792
+#: sources/php/template-functions.php:808
+#: sources/php/template-functions.php:834
+#: sources/php/template-functions.php:850
+#: sources/php/template-functions.php:865
+#: sources/php/template-functions.php:890
+#: sources/php/template-functions.php:906
+#: sources/php/template-functions.php:921
+#: sources/php/template-functions.php:937
+msgid "Change"
+msgstr "Thay đổi"
+
+#: sources/php/template-functions.php:857
+#: sources/php/template-functions.php:913
+msgid "Method"
+msgstr "Phương thức"
+
+#: sources/php/template-functions.php:1069
+msgid "Shipping method"
+msgstr "Phương thức giao hàng"
+
+#: sources/php/template-functions.php:1194
+msgid "Select the address that matches your card or payment method."
+msgstr "Chọn địa chỉ phù hợp với thẻ hoặc phương thức thanh toán của bạn."
+
+#: sources/php/template-functions.php:1329
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: sources/php/template-functions.php:1348
+msgid "Promo Code"
+msgstr "Mã khuyến mại"
+
+#: sources/php/template-functions.php:1356
+msgid "Enter Promo Code"
+msgstr "Nhập mã khuyến mãi"
+
+#: sources/php/template-functions.php:1484
+msgid "Shipping"
+msgstr "Vận chuyển"
+
+#: templates/default/footer.php:22
+msgid "Copyright"
+msgstr "Bản quyền"
+
+#: templates/default/footer.php:22
+msgid "All rights reserved."
+msgstr "Tất cả bản quyền"
+
+#. Plugin Name of the plugin/theme
+msgid "CheckoutWC Lite"
+msgstr "CheckoutWC Lite"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid ""
+"A beautiful, responsive, conversion optimized checkout template for "
+"WooCommerce."
+msgstr "Mẫu thanh toán đẹp, đáp ứng nhanh, được tối ưu hóa cho WooC Commerce."
+
+#. Author URI of the plugin/theme
+msgid "https://www.checkoutwc.com"
+msgstr "https://www.checkoutwc.com"
+
+#~ msgid "Use Recommended"
+#~ msgstr "Sử dụng được đề xuất"
+
+#~ msgid "Use Your Address"
+#~ msgstr "Sử dụng địa chỉ của bạn"
+
+#~ msgid "Reenter Address"
+#~ msgstr "Địa chỉ Reenter"
+
+#~ msgid "Use Existing Address"
+#~ msgstr "Sử dụng địa chỉ hiện tại"
+
+#~ msgid "We are unable to verify your address."
+#~ msgstr "Chúng tôi không thể xác minh địa chỉ của bạn."
+
+#~ msgid "Full name"
+#~ msgstr "Họ và tên"
+
+#~ msgid "House number"
+#~ msgstr "số nhà"
+
+#~ msgid "Street name"
+#~ msgstr "Tên đường"
+
+#~ msgid "Add Address Line 2"
+#~ msgstr "Thêm dòng địa chỉ 2"
+
+#~ msgid "Add Company"
+#~ msgstr "Thêm công ty"
+
+#~ msgid "Review"
+#~ msgstr "Đánh giá"
+
+#~ msgid "Pick up"
+#~ msgstr "Đón từ"
+
+#~ msgid "Ship"
+#~ msgstr "Vận chuyển"
+
+#~ msgid "Delivery method"
+#~ msgstr "Phương thức vận chuyển"
+
+#~ msgid "Pickup locations"
+#~ msgstr "Địa điểm nhận hàng"
+
+#~ msgid "Pick up in store"
+#~ msgstr "Nhận tại cửa hàng"
+
+#~ msgid "Pickup instructions"
+#~ msgstr "Hướng dẫn nhận hàng"
+
+#~ msgid "Usually ready in 1 hour."
+#~ msgstr "Thường sẵn sàng trong 1 giờ."
+
+#~ msgid "Usually ready in 2 hours."
+#~ msgstr "Thường sẵn sàng trong 2 giờ."
+
+#~ msgid "Usually ready in 4 hours."
+#~ msgstr "Thường sẵn sàng trong 4 giờ."
+
+#~ msgid "Usually ready in 24 hours."
+#~ msgstr "Thường sẵn sàng trong 24 giờ."
+
+#~ msgid "Usually ready in 2-4 days."
+#~ msgstr "Thường sẵn sàng trong 2-4 ngày."
+
+#~ msgid "Usually ready in 5+ days."
+#~ msgstr "Thường sẵn sàng trong 5 ngày trở lên."
+
+#~ msgid "Close Cart"
+#~ msgstr "Đóng giỏ hàng"
+
+#~ msgid "Have a promo code? Click here."
+#~ msgstr "Có mã khuyến mãi? Bấm vào đây."
+
+#~ msgid "Congrats! You get free standard shipping."
+#~ msgstr "Chúc mừng! Bạn nhận được giao hàng tiêu chuẩn miễn phí."
+
+#, php-format
+#~ msgid "You're %s away from free shipping!"
+#~ msgstr "Bạn còn %s nhận được giao hàng miễn phí!"
+
+#~ msgid "Use This Address"
+#~ msgstr "Sử dụng địa chỉ này"
+
+#~ msgid "Use recommended address instead?"
+#~ msgstr "Sử dụng địa chỉ được đề xuất thay thế?"
+
+#~ msgid "We're unable to verify your address, but found a close match."
+#~ msgstr ""
+#~ "Chúng tôi không thể xác minh địa chỉ của bạn, nhưng đã tìm thấy một địa "
+#~ "chỉ trùng khớp."
+
+#~ msgid "Please confirm you would like to use this address or try again."
+#~ msgstr "Vui lòng xác nhận rằng bạn muốn sử dụng địa chỉ này hoặc thử lại."
+
+#~ msgid "You Entered"
+#~ msgstr "Bạn đã tham gia"
+
+#~ msgid "Recommended"
+#~ msgstr "Đề nghị"
+
+#~ msgid "Decrement"
+#~ msgstr "Giảm"
+
+#~ msgid "Increment"
+#~ msgstr "Tăng"
+
+#~ msgid "Order review"
+#~ msgstr "Xem xét đơn hàng"
+
+#~ msgid "Promo code"
+#~ msgstr "Mã khuyến mại"
+
+#, php-format
+#~ msgid "Order %s"
+#~ msgstr "Đơn đặt hàng %s"
+
+#, php-format
+#~ msgid "Thank you %s!"
+#~ msgstr "Cảm ơn bạn %s!"
+
+#~ msgid "Order status"
+#~ msgstr "Tình trạng đặt hàng"
+
+#~ msgid "Order updates"
+#~ msgstr "Cập nhật đơn hàng"
+
+#~ msgid "You’ll get shipping and delivery updates by email."
+#~ msgstr ""
+#~ "Bạn sẽ nhận được thông tin cập nhật về vận chuyển và giao hàng qua email."
+
+#~ msgid "Contact information"
+#~ msgstr "Thông tin liên hệ"
+
+#~ msgid "Login"
+#~ msgstr "Đăng nhập"
+
+#~ msgid "Your Cart is Empty"
+#~ msgstr "Giỏ của bạn trống trơn"
+
+#~ msgid "Your Cart"
+#~ msgstr "Giỏ hàng của bạn"
+
+#~ msgid "Objectiv"
+#~ msgstr "Objectiv"
+
+#~ msgid "https://objectiv.co"
+#~ msgstr "https://objectiv.co"
+
+#~ msgid "Address Verification"
+#~ msgstr "Xác minh địa chỉ"
+
+#~ msgid ""
+#~ "The shipping address you provided does not match the suggested address "
+#~ "from our verification service. Please verify your address."
+#~ msgstr ""
+#~ "Địa chỉ giao hàng bạn đã cung cấp không khớp với địa chỉ được đề xuất từ "
+#~ "dịch vụ xác minh của chúng tôi. Vui lòng xác minh địa chỉ của bạn."
+
+#~ msgid "We Suggest"
+#~ msgstr "Chúng tôi đề nghị"
+
+#, php-format
+#~ msgid "You can only have 1 %s in your cart."
+#~ msgstr "Bạn chỉ có thể có 1% s trong giỏ hàng của bạn."
+
+#~ msgid "Select a country"
+#~ msgstr "Chọn một quốc gia"
+
+#~ msgid "Password"
+#~ msgstr "Mật khẩu"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr ""
+#~ "Đăng nhập là tùy chọn. Bạn có thể tiếp tục với đơn đặt hàng của bạn dưới "
+#~ "đây."
+
+#~ msgid "Address Required"
+#~ msgstr "Địa chỉ Yêu cầu"

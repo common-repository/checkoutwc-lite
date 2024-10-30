@@ -1,0 +1,515 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2023-05-02 14:15-0400\n"
+"PO-Revision-Date: 2023-05-02 14:17-0400\n"
+"Last-Translator: \n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: checkout-for-woocommerce.php:77
+msgid ""
+"Your site is running an <strong>insecure version</strong> of PHP that is no "
+"longer supported. Please contact your web hosting provider to update your "
+"PHP version."
+msgstr ""
+"您的站點正在運行不再受支持的<strong>不安全的 PHP 版本</strong>。請聯繫您的虛"
+"擬主機提供商以更新您的 PHP 版本。"
+
+#. translators: %s - checkoutwc.com URL for documentation with more details.
+#: checkout-for-woocommerce.php:83
+#, php-format
+msgid ""
+"<strong>Note:</strong> CheckoutWC is disabled on your site until you fix the "
+"issue. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Need "
+"help? Click here.</a>"
+msgstr ""
+"<strong>注意：</strong>在您解決問題之前，CheckoutWC 在您的網站上處於禁用狀"
+"態。<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">需要幫忙？點"
+"擊這裡。</a>"
+
+#. translators: %s - WordPress version.
+#: checkout-for-woocommerce.php:121
+#, php-format
+msgid "CheckoutWC requires WordPress %s or later."
+msgstr "CheckoutWC 需要 WordPress %s 或更高版本。"
+
+#. translators: %s - WordPress version.
+#: checkout-for-woocommerce.php:156
+#, php-format
+msgid "CheckoutWC requires WooCommerce %s or later."
+msgstr "CheckoutWC 需要 WooCommerce %s 或更高版本。"
+
+#: includes/Action/LogInAction.php:37
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr "登錄時出錯。請檢查您的憑據，然後重試。"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:35
+msgid "Email address contains invalid domain name."
+msgstr "電子郵件地址包含無效域名。"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:33
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "請輸入有效的 %s。"
+
+#: includes/Admin/Notices/CompatibilityNotice.php:34
+msgid "Please deactivate to avoid problems with your checkout page."
+msgstr "請停用以避免結帳頁面出現問題。"
+
+#: includes/Admin/Pages/General.php:101
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/Admin/Pages/General.php:104
+msgid "per year"
+msgstr "每年"
+
+#: includes/Admin/Pages/General.php:110
+msgid "Upgrade Now"
+msgstr "立即升級"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:129
+#: sources/php/template-functions.php:608
+#: sources/php/template-functions.php:1173
+msgid "Billing address"
+msgstr "帳單地址"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:297
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "使用貝寶登錄。請在下面繼續訂購。"
+
+#. Author of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:62
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Managers/AssetManager.php:429
+msgid "Please enter a valid phone number."
+msgstr "請輸入有效的電話號碼。"
+
+#: includes/Managers/AssetManager.php:437
+msgid "Please enter your first and last name."
+msgstr "請輸入您的名字和姓氏。"
+
+#: includes/Managers/AssetManager.php:438
+#: sources/php/template-functions.php:618
+msgid "Shipping address"
+msgstr "運送地址"
+
+#: includes/Managers/AssetManager.php:439
+msgid "Please enter a new quantity:"
+msgstr "請輸入新的數量："
+
+#: includes/Managers/AssetManager.php:440
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr "通常在您卡背面的3位安全碼。美國運通卡的正面有一個4位代碼。"
+
+#: includes/Managers/AssetManager.php:441
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "您確定要從購物車中刪除該物品嗎？"
+
+#: includes/Managers/AssetManager.php:448
+msgid "Please enter a valid postcode / ZIP."
+msgstr "請輸入有效的郵遞區號."
+
+#: includes/Managers/AssetManager.php:449
+msgid "Pickup"
+msgstr "捡起"
+
+#: sources/php/functions.php:176
+msgid "Ship to"
+msgstr "運送至"
+
+#: sources/php/functions.php:866
+msgid "No shipping methods available"
+msgstr "沒有可用的送貨方式"
+
+#: sources/php/functions.php:964
+msgid "Complete Order"
+msgstr "完成訂單"
+
+#: sources/php/functions.php:1024 sources/php/template-functions.php:930
+#: sources/php/template-functions.php:1498
+msgid "Payment"
+msgstr "付款"
+
+#: sources/php/functions.php:1049
+msgid "All transactions are secure and encrypted."
+msgstr "所有交易都是安全和加密的。"
+
+#: sources/php/functions.php:1070
+msgid "Your order is free. No payment is required."
+msgstr "您的訂單是免費的。無需付款。"
+
+#: sources/php/functions.php:1115
+msgid "Same as shipping address"
+msgstr "跟郵寄地址一樣"
+
+#: sources/php/functions.php:1135
+msgid "Use a different billing address"
+msgstr "使用其他帳單地址"
+
+#: sources/php/functions.php:1198
+msgid "Return to cart"
+msgstr "返回到購物車"
+
+#: sources/php/functions.php:1235
+msgid "Continue to shipping"
+msgstr "繼續運送"
+
+#: sources/php/functions.php:1257
+msgid "Continue to payment"
+msgstr "繼續付款"
+
+#: sources/php/functions.php:1293
+msgid "Review order"
+msgstr "查看訂單"
+
+#: sources/php/functions.php:1313
+msgid "Return to information"
+msgstr "返回信息"
+
+#: sources/php/functions.php:1333
+msgid "Return to shipping"
+msgstr "返回運輸"
+
+#: sources/php/functions.php:1353
+msgid "Return to payment"
+msgstr "返回付款"
+
+#: sources/php/functions.php:1736
+msgid "Or"
+msgstr "或"
+
+#: sources/php/template-functions.php:61
+msgid "Show order summary"
+msgstr "顯示訂單摘要"
+
+#: sources/php/template-functions.php:77
+msgid "Hide order summary"
+msgstr "隱藏訂單摘要"
+
+#: sources/php/template-functions.php:223
+msgid "Express checkout"
+msgstr "快速結賬"
+
+#: sources/php/template-functions.php:255
+#: sources/php/template-functions.php:1469
+msgid "Information"
+msgstr "資訊"
+
+#: sources/php/template-functions.php:326
+msgid "Already have an account with us?"
+msgstr "已經在我們帳戶了嗎？"
+
+#: sources/php/template-functions.php:338
+msgid "Log in for a faster checkout experience."
+msgstr "登錄以獲得更快的結帳體驗。"
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:408
+#, php-format
+msgid "Create %s shopping account."
+msgstr "創建%s購物帳戶。"
+
+#: sources/php/template-functions.php:420
+msgid "If you do not have an account, we will create one for you."
+msgstr "如果您沒有帳戶，我們將為您創建一個。"
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:452
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "歡迎回來，%1$s（%2$s）。"
+
+#: sources/php/template-functions.php:470
+msgid "Log out."
+msgstr "登出。"
+
+#: sources/php/template-functions.php:488
+msgid "Welcome back"
+msgstr "歡迎回來"
+
+#: sources/php/template-functions.php:492
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr "看起來您已經有一個帳戶。請在下面輸入您的登錄詳細信息。"
+
+#: sources/php/template-functions.php:495
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr "如果您以前在我們這裡購物過，請在下面輸入您的登錄信息。"
+
+#: sources/php/template-functions.php:548
+msgid "Or continue as guest"
+msgstr "或以客人身份繼續"
+
+#: sources/php/template-functions.php:598
+msgid "Billing and Shipping address"
+msgstr "帳單和送貨地址"
+
+#: sources/php/template-functions.php:784
+#: sources/php/template-functions.php:826
+#: sources/php/template-functions.php:882
+msgid "Contact"
+msgstr "聯絡"
+
+#: sources/php/template-functions.php:792
+#: sources/php/template-functions.php:808
+#: sources/php/template-functions.php:834
+#: sources/php/template-functions.php:850
+#: sources/php/template-functions.php:865
+#: sources/php/template-functions.php:890
+#: sources/php/template-functions.php:906
+#: sources/php/template-functions.php:921
+#: sources/php/template-functions.php:937
+msgid "Change"
+msgstr "更改"
+
+#: sources/php/template-functions.php:857
+#: sources/php/template-functions.php:913
+msgid "Method"
+msgstr "方法"
+
+#: sources/php/template-functions.php:1069
+msgid "Shipping method"
+msgstr "運送方式"
+
+#: sources/php/template-functions.php:1194
+msgid "Select the address that matches your card or payment method."
+msgstr "選擇與您的卡或付款方式匹配的地址。"
+
+#: sources/php/template-functions.php:1329
+msgid "Apply"
+msgstr "套用"
+
+#: sources/php/template-functions.php:1348
+msgid "Promo Code"
+msgstr "促銷代碼"
+
+#: sources/php/template-functions.php:1356
+msgid "Enter Promo Code"
+msgstr "輸入促銷代碼"
+
+#: sources/php/template-functions.php:1484
+msgid "Shipping"
+msgstr "運送方式"
+
+#: templates/default/footer.php:22
+msgid "Copyright"
+msgstr "版權"
+
+#: templates/default/footer.php:22
+msgid "All rights reserved."
+msgstr "版權所有"
+
+#. Plugin Name of the plugin/theme
+msgid "CheckoutWC Lite"
+msgstr "CheckoutWC Lite"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid ""
+"A beautiful, responsive, conversion optimized checkout template for "
+"WooCommerce."
+msgstr "用於 WooCommerce 的美觀、響應迅速、轉換優化的結帳模板。"
+
+#. Author URI of the plugin/theme
+msgid "https://www.checkoutwc.com"
+msgstr "https://www.checkoutwc.com"
+
+#~ msgid "Use Recommended"
+#~ msgstr "使用推薦"
+
+#~ msgid "Use Your Address"
+#~ msgstr "使用您的地址"
+
+#~ msgid "Reenter Address"
+#~ msgstr "重新輸入地址"
+
+#~ msgid "Use Existing Address"
+#~ msgstr "使用現有地址"
+
+#~ msgid "We are unable to verify your address."
+#~ msgstr "我們無法驗證您的地址。"
+
+#~ msgid "Full name"
+#~ msgstr "全名"
+
+#~ msgid "House number"
+#~ msgstr "門牌號碼"
+
+#~ msgid "Street name"
+#~ msgstr "街道名稱"
+
+#~ msgid "Add Address Line 2"
+#~ msgstr "添加地址行 2"
+
+#~ msgid "Add Company"
+#~ msgstr "添加公司"
+
+#~ msgid "Review"
+#~ msgstr "評論"
+
+#~ msgid "Pick up"
+#~ msgstr "撿起"
+
+#~ msgid "Ship"
+#~ msgstr "发送"
+
+#~ msgid "Delivery method"
+#~ msgstr "運輸方式"
+
+#~ msgid "Pickup locations"
+#~ msgstr "取貨地點"
+
+#~ msgid "Pick up in store"
+#~ msgstr "到店取貨"
+
+#~ msgid "Pickup instructions"
+#~ msgstr "取貨說明"
+
+#~ msgid "Usually ready in 1 hour."
+#~ msgstr "通常在 1 小時內準備好。"
+
+#~ msgid "Usually ready in 2 hours."
+#~ msgstr "通常在 2 小時內準備好。"
+
+#~ msgid "Usually ready in 4 hours."
+#~ msgstr "通常在 4 小時內準備好。"
+
+#~ msgid "Usually ready in 24 hours."
+#~ msgstr "通常在 24 小時內準備好。"
+
+#~ msgid "Usually ready in 2-4 days."
+#~ msgstr "通常在 2-4 天內準備好。"
+
+#~ msgid "Usually ready in 5+ days."
+#~ msgstr "通常在 5+ 天內準備好。"
+
+#~ msgid "Close Cart"
+#~ msgstr "關閉購物車"
+
+#~ msgid "Have a promo code? Click here."
+#~ msgstr "有促銷碼嗎？點擊這裡。"
+
+#~ msgid "Congrats! You get free standard shipping."
+#~ msgstr "恭喜！您可以獲得免費的標準送貨服務。"
+
+#, php-format
+#~ msgid "You're %s away from free shipping!"
+#~ msgstr "您距離免費送貨還有 %s！"
+
+#~ msgid "Use This Address"
+#~ msgstr "用這個地址"
+
+#~ msgid "Use recommended address instead?"
+#~ msgstr "改用推薦地址？"
+
+#~ msgid "We're unable to verify your address, but found a close match."
+#~ msgstr "我們無法驗證您的地址，但找到了匹配的地址。"
+
+#~ msgid "Please confirm you would like to use this address or try again."
+#~ msgstr "請確認您要使用此地址或重試。"
+
+#~ msgid "You Entered"
+#~ msgstr "你登錄了"
+
+#~ msgid "Recommended"
+#~ msgstr "推薦"
+
+#~ msgid "Decrement"
+#~ msgstr "遞減"
+
+#~ msgid "Increment"
+#~ msgstr "增量"
+
+#~ msgid "Order review"
+#~ msgstr "订单评价后"
+
+#~ msgid "Promo code"
+#~ msgstr "促銷代碼"
+
+#, php-format
+#~ msgid "Order %s"
+#~ msgstr "訂單 %s"
+
+#, php-format
+#~ msgid "Thank you %s!"
+#~ msgstr "謝謝%s！"
+
+#~ msgid "Order status"
+#~ msgstr "訂單狀態"
+
+#~ msgid "Order updates"
+#~ msgstr "訂單備註已更新"
+
+#~ msgid "You’ll get shipping and delivery updates by email."
+#~ msgstr "您將通過電子郵件獲得運輸和交貨的最新信息。"
+
+#~ msgid "Contact information"
+#~ msgstr "聯繫信息"
+
+#~ msgid "Login"
+#~ msgstr "登入"
+
+#~ msgid "Your Cart is Empty"
+#~ msgstr "您的購物車是空的"
+
+#~ msgid "Your Cart"
+#~ msgstr "您的購物車"
+
+#~ msgid "Objectiv"
+#~ msgstr "Objectiv"
+
+#~ msgid "https://objectiv.co"
+#~ msgstr "https://objectiv.co"
+
+#~ msgid "Address Verification"
+#~ msgstr "驗證地址"
+
+#~ msgid ""
+#~ "The shipping address you provided does not match the suggested address "
+#~ "from our verification service. Please verify your address."
+#~ msgstr "您提供的送貨地址與我們的驗證服務建議的地址不符。請驗證您的地址。"
+
+#~ msgid "We Suggest"
+#~ msgstr "我們建議"
+
+#~ msgid "Select a country"
+#~ msgstr "選擇一個國家"
+
+#~ msgid "Password"
+#~ msgstr "密碼"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "登錄是可選的。您可以在下面繼續訂購。"
+
+#~ msgid "Address Required"
+#~ msgstr "地址必填"
